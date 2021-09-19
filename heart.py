@@ -4,6 +4,7 @@ import time
 import calendar
 import sys
 import string
+import math
 from random import randrange
 from datetime import datetime
 
@@ -50,12 +51,12 @@ def key_gen():
 
 def socialmFunction():
     socialmList = []
-    for i in socialmList:
+    print("Tracking a random user...")
+    for i in range(5):
         socialmList.append(user_socialmedia(random.choice(listFirstName),
                                             random.choice(listSecondName), random.choice(listApps), random.choice(listContries), random.choice(listCelphone)))
-        print("Tracking a random user...")
-        print(socialmList[i].name + " " + socialmList[i].secondName + "\t\t|| " +
-              + "\t\t|| " + socialmList[i].apps + "\t\t|| " + socialmList[i].location + socialmList[i].celphone)
+        print("\n")
+        print(socialmList[i].name + " " + socialmList[i].secondName  + "\t||\t" + socialmList[i].apps + "\t||\t" + socialmList[i].location + "\t||\t" + socialmList[i].celphone)
 
 
 def appleFunction():
@@ -294,6 +295,7 @@ def ipConnect(choose):
     elif doSomething('724.553.878', question):
         print(apple)
         breakingSecurity()
+        appleFunction()
 
     elif doSomething('174.289.111', question):
         print(netflix)
@@ -344,16 +346,16 @@ def askInfo(choice):
         _yen = Sum / 0.0091
         print("You have: ", Sum, " $- DOLLARS")
         print("Converting the value: ")
-        print(_real, "R$- REAIS")
+        print(math.trunc(_real), "R$- REAIS")
         print("----------------------------")
-        print(_euro, "€- EUROS")
+        print(math.trunc(_euro), "€- EUROS")
         print("----------------------------")
-        print(_pound, "£- POUNDS")
+        print(math.trunc(_pound), "£- POUNDS")
         print("----------------------------")
-        print(_yen, "¥- YENS")
+        print(math.trunc(_yen), "¥- YENS")
 
     elif doSomething('social media', enterInput):
-        print('')
+        socialmFunction()
 
     else:
         print('[#].ERROR' + '.' + str(random.randint(111, 999)) + ' ')
@@ -371,36 +373,36 @@ def info():
 
 dots = '. . .'
 
-# #randomNum = str(random.randint(100000000000000,
-# #                               100000000000000000000000000000000000000000000000000000000000000000000000000000000000000))
-# #for i in randomNum:
-# #    sys.stdout.write(randomNum)
-# #    sys.stdout.flush()
-# #    time.sleep(0.005)
-# print('\n\n')
-# #dotsEffect(dots)
-# print('\n\n\n')
-# #time.sleep(2)
-# print('======================================')
+randomNum = str(random.randint(100000000000000,
+                               100000000000000000000000000000000000000000000000000000000000000000000000000000000000000))
+for i in randomNum:
+    sys.stdout.write(randomNum)
+    sys.stdout.flush()
+    time.sleep(0.005)
+print('\n\n')
+dotsEffect(dots)
+print('\n\n\n')
+time.sleep(2)
+print('======================================')
 
-# sis = '===||    INITIALIZING SYSTEM     ||===\n'
-# dramEffect(sis)
+sis = '===||    INITIALIZING SYSTEM     ||===\n'
+dramEffect(sis)
 
-# print('======================================\n\n\n')
-# time.sleep(2)
-# dotsEffect(dots)
-# time.sleep(1)
-# print('\n\n\n')
-# #loggs()
-# user_random = random.randint(1, 1000)
-# user_code = sys.getsizeof(newLogIn) * user_random
-# time.sleep(1)
-# dotsEffect(dots)
-# print('\n\n')
-# print('[C]usercode: HaSsCd' + str(user_code))
-# time.sleep(1.5)
-# checkPing()
-# time.sleep(2)
+print('======================================\n\n\n')
+time.sleep(2)
+dotsEffect(dots)
+time.sleep(1)
+print('\n\n\n')
+loggs()
+user_random = random.randint(1, 1000)
+user_code = sys.getsizeof(newLogIn) * user_random
+time.sleep(1)
+dotsEffect(dots)
+print('\n\n')
+print('[C]usercode: HaSsCd' + str(user_code))
+time.sleep(1.5)
+checkPing()
+time.sleep(2)
 actualMachine = '[U]' + ipRandom() + ' || ' + str(random.randint(5, 999)) + 'ms' + ' || ' + \
     chooseRandom(listContries) + ' || ' + \
     chooseRandom(listFirstName) + ' ' + chooseRandom(listSecondName)
