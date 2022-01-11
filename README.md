@@ -1,6 +1,6 @@
 # Hacker-Simulator
-<img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-hacker-cryptocurrency-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/> <img src="https://img.icons8.com/color/48/000000/python--v1.png"/>
-PLAY FOR FUN. This is a beginner hacker simulatorwith some different codes, enjoy!
+<img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-hacker-cryptocurrency-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/> <img src="https://img.icons8.com/color/48/000000/python--v1.png"/><br>
+ <h2>This is a beginner hacker simulator made in Python, enjoy!</h2>
 
 
 Codes are simple, made just for fun.
@@ -17,3 +17,6 @@ And more...</p>
 <p>As i said, this is a beginner project, i am still learning how python works and some functions to use in it. Feel free to rate it and let me know what you think!</p>
 <br></br>
 <h4>Have fun!</h4>
+
+<img src="https://img.icons8.com/emoji/48/000000/warning-emoji.png"/>THERE IS NO HACKING INVOLVED IN THIS PROJECT, JUST FOR FUN.
+
