@@ -4,7 +4,7 @@
 
 
 Codes are simple, made just for fun.
-Basically you star by creating your Log-In to a hacker program, then you will check your network and get a virtual machine as host.
+Basically you start by creating your Log-In to a hacker programm, then  check your network and get a virtual machine as host to start hacking.
 You can: 
 <p>Steal money from other account
 <br></br>Invade new machines<br></br>
@@ -18,5 +18,5 @@ And more...</p>
 <br></br>
 <h4>Have fun!</h4>
 
-<img src="https://img.icons8.com/emoji/48/000000/warning-emoji.png"/>THERE IS NO HACKING INVOLVED IN THIS PROJECT, JUST FOR FUN.
+<img src="https://img.icons8.com/emoji/48/000000/warning-emoji.png"/><br>THERE IS NO HACKING INVOLVED IN THIS PROJECT, JUST FOR FUN.
 
