@@ -18,5 +18,6 @@ And more...</p>
 <br></br>
 <h4>Have fun!</h4>
 
-<img src="https://img.icons8.com/emoji/48/000000/warning-emoji.png"/><br>THERE IS NO HACKING INVOLVED IN THIS PROJECT, JUST FOR FUN.
+<h5><img src="https://img.icons8.com/emoji/48/000000/warning-emoji.png"/><br>THERE IS NO HACKING INVOLVED IN THIS PROJECT, JUST FOR FUN.
+<br>Thank you for checking and ENJOY!</h5>
 
